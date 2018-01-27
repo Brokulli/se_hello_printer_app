@@ -46,7 +46,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Integracja z TravisCI:
 
   ::
-    Tworzymy konto na travisci.org, integrujemy z githubem.
+    Tworzymy konto na travist.org, integrujemy z githubem.
     Tworzymy plik .travis.yml
 
     ...
