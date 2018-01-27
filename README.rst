@@ -13,7 +13,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     # jeśli nie działa to wcześniej instalujemy python virtualenv itd. (patrz: zakładka pomocnicze)
 
-    # jako root
+    # jako root instalujemy
     mkvirtualenv wsb-simple-flask-app
     pip install -r requirements.txt
     pip install -r test_requirements.txt
@@ -35,7 +35,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
     PYTHONPATH=. py.test
     PYTHONPATH=. py.test  --verbose -s
 
-- Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
+- Przy ponownym uruchomieniu terminala; kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
 
   ::
 
