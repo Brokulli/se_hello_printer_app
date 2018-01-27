@@ -24,6 +24,8 @@ def format_to_json(msg, imie):
     return ('{ "imie":"' + imie + '", "mgs":"' +  msg + '"}')
 # wersja z bugiem
 # return ('{ "imie":"' + imie + '", "mgs":' +   msg + '"}')
+
+
 def plain_text(msg, imie):
     return imie + ' ' + msg
 
