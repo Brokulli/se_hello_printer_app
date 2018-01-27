@@ -9,15 +9,14 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ::
 
   # na koniec ~/.bashrc wklejamy
-    source /usr/bin/virtualenvwrapper.sh
+  source /usr/bin/virtualenvwrapper.sh
 
-  # jeśli nie działa to wcześniej instalujemy python virtualenv itd.
+  # jeśli nie działa to wcześniej instalujemy python virtualenv itd. (patrz: zakładka pomocnicze)
 
   # jako root
-
-    mkvirtualenv wsb-simple-flask-app
-    pip install -r requirements.txt
-    pip install -r test_requirements.txt
+  mkvirtualenv wsb-simple-flask-app
+  pip install -r requirements.txt
+  pip install -r test_requirements.txt
 
 - Uruchamianie applikacji:
 
