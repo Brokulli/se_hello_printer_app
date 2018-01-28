@@ -25,7 +25,7 @@ docker_run: docker_build
 
 USERNAME=brokulli
 TAG=$(USERNAME)/hello-world-printer
-DOCKER_PASSWORD=qweasd123 make docker_push
+DOCKER_PASSWORD=DOCKER_PASSWORD make docker_push
 
 docker_push: docker_build
 	@docker login --username $(USERNAME) --password $${DOCKER_PASSWORD}; \
