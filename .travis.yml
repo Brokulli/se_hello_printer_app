@@ -11,3 +11,7 @@ script:
 #after_success:
   - make docker_build
   - make docker_push
+deploy:
+  provider: heroku
+  app: fathomless-ridge-17643 # nazwa naszej aplikacji
+  api_key: ${HEROKU_API_KEY} # zmienna (hasło) będzie to pobierał z travisa
