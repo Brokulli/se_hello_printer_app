@@ -1,0 +1,7 @@
+$ touch runtime.txt
+
+# dodaj python-2.7.14
+
+$ car runtime.txt
+
+  python-2.7.14
