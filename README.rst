@@ -4,7 +4,7 @@ Simple Flask App
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
-- Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
+- Rozpocząnając pracę z projektem (wykorzystując virtualenv) musimy przygotować maszynę. Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
 
   ::
 
@@ -13,8 +13,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     # jeśli nie działa to wcześniej instalujemy python virtualenv itd. (patrz: zakładka pomocnicze)
 
-    # jako root instalujemy
-    mkvirtualenv wsb-simple-flask-app
+    # następnie jako root instalujemy
+    mkvirtualenv wsb-simple-flask-app # na su nie działało, ale na zwyklym poszło
     pip install -r requirements.txt
     pip install -r test_requirements.txt
 
@@ -55,7 +55,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 Pomocnicze
 ==========
 
-- Instalacja python virtualenv i virtualenvwrapper:
+- Instalacja python virtualenv i virtualenvwrapper (na su):
 
   ::
 
@@ -83,6 +83,20 @@ Pomocnicze
     yum makecache fast
     yum install docker-ce
     systemctl start docker
+
+  - Komendy - terminal - linux
+
+    ::
+
+      make test
+      make lint
+      make deps
+      make run
+
+    ::
+
+      wychodzenie z su: exit
+      
 
 Materiały
 =========
