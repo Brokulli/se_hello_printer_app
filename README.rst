@@ -84,19 +84,19 @@ Pomocnicze
     yum install docker-ce
     systemctl start docker
 
-  - Komendy - terminal - linux
+- Komendy - terminal - linux
 
-    ::
+  ::
 
-      make test
-      make lint
-      make deps
-      make run
+    make test
+    make lint
+    make deps
+    make run
 
-    ::
+  ::
 
-      wychodzenie z su: exit
-      
+    wychodzenie z su: exit
+
 
 Materiały
 =========
