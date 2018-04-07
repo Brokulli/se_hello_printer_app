@@ -14,5 +14,5 @@ script:
 deploy:
   provider: heroku
   app: fathomless-ridge-17643 # nazwa naszej aplikacji
-  api_key: $(HEROKU_API_KEY) # zmienna (haslo) bedzie pobierana z travisa
+  api_key: ${HEROKU_API_KEY} # zmienna (haslo) bedzie pobierana z travisa
   # zakladka settings na travis dodajemy zmienna HEROKU_API_KEY
