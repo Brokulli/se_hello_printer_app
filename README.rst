@@ -49,11 +49,35 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
     Tworzymy konto na travist.org, integrujemy z githubem.
     Tworzymy plik .travis.yml
 
+  ::
+    Status imege z TravisCi
+
+    .. image:: https://travis-ci.org/Brokulli/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/Brokulli/se_hello_printer_app
+
+
 - Integracja z hub.docker.com
+
 
 - Integracja z Heroku
 
+  ::
+
+    Tworzymy konto na heroku.
+    Dodajemy gunicorn do pliku requirements.txt
+
+
 - Integracja z Statuscake
+
+  ::
+
+    Tworzymy konto na statuscake.com
+    Tworzymy nowy test aplikacji z haroku
+
+  ::
+
+
+
 
 
 Pomocnicze
