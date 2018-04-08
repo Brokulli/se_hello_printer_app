@@ -65,6 +65,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z hub.docker.com
 
+  ::
+
 
 - Integracja z Heroku
 
@@ -87,7 +89,10 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
     Należy zmienić html na .RST
 
     html: <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=V8soudmD6X&Days=1&Design=2" /></a>
-    RST: .. image:: https://app.statuscake.com/button/index.php?Track=V8soudmD6X&Days=1&Design=2
+    RST:
+
+  .. image:: https://app.statuscake.com/button/index.php?Track=V8soudmD6X&Days=1&Design=2
+      :target: https://www.statuscake.com
 
 
 
