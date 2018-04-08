@@ -11,6 +11,7 @@ script:
 #after_success:
   - make docker_build
   - make docker_push
+  - make test_xunit
 deploy:
   provider: heroku
   app: fathomless-ridge-17643 # nazwa naszej aplikacji
