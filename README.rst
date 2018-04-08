@@ -55,7 +55,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
     Dodajemy badge z TravisCi (format to RST)
 
     .. image:: https://travis-ci.org/Brokulli/se_hello_printer_app.svg?branch=master
-    :target: https://travis-ci.org/Brokulli/se_hello_printer_app
+        :target: https://travis-ci.org/Brokulli/se_hello_printer_app
 
     Dodajemy badge z Statuscake (wybieramy odpowiadający nam styl przycisku)
     Należy zmienić html na .RST
