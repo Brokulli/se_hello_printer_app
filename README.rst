@@ -49,7 +49,11 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
     Tworzymy konto na travist.org, integrujemy z githubem.
     Tworzymy plik .travis.yml
 
-    ...
+- Integracja z hub.docker.com
+
+- Integracja z Heroku
+
+- Integracja z Statuscake
 
 
 Pomocnicze
