@@ -56,8 +56,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     Dodajemy badge z TravisCi (format to RST)
 
-    .. image:: https://travis-ci.org/Brokulli/se_hello_printer_app.svg?branch=master
-        :target: https://travis-ci.org/Brokulli/se_hello_printer_app
+  .. image:: https://travis-ci.org/Brokulli/se_hello_printer_app.svg?branch=master
+      :target: https://travis-ci.org/Brokulli/se_hello_printer_app
 
 
 - Integracja z hub.docker.com
