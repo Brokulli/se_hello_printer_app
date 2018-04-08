@@ -50,11 +50,18 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
     Tworzymy plik .travis.yml
 
   ::
-    Status imege z TravisCi
+    Status image z TravisCi & StatusCake
+
+    Dodajemy badge z TravisCi (format to RST)
 
     .. image:: https://travis-ci.org/Brokulli/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/Brokulli/se_hello_printer_app
 
+    Dodajemy badge z Statuscake (wybieramy odpowiadający nam styl przycisku)
+    Należy zmienić html na .RST
+
+    html: <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=V8soudmD6X&Days=1&Design=2" /></a>
+    RST: .. image:: https://app.statuscake.com/button/index.php?Track=V8soudmD6X&Days=1&Design=2
 
 - Integracja z hub.docker.com
 
