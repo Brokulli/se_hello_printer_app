@@ -114,6 +114,13 @@ Pomocnicze
     pip install virtualenv
     pip install virtualenvwrapper
 
+- Instalacja flake8
+
+  ::
+  
+    python -m pip install flake8
+    
+    
 - Instalacja docker-a:
 
   ::
